@@ -19,8 +19,9 @@ llm:
 
 source:
   arxiv:
-    category: ["cs.AI","cs.CV","cs.LG","cs.CL"]
+    category: ["nucl-ex","nucl-th","hep-ex","hep-ph","hep-th","hep-lat","astro-ph.CO","astro-ph.GA","astro-ph.HE","astro-ph.IM","astro-ph.SR"]
 
 executor:
   debug: ${oc.env:DEBUG,null}
   source: ['arxiv']
+  max_paper_num: 30
