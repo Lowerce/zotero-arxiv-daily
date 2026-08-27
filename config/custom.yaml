@@ -20,7 +20,16 @@ llm:
 
 source:
   arxiv:
-    category: ["cs.AI","cs.CV","cs.LG","cs.CL"]
+    category: [
+      "astro-ph.CO",   # Cosmology and Nongalactic Astrophysics
+      "astro-ph.GA",   # Galaxies
+      "astro-ph.HE",   # High Energy Astrophysical Phenomena
+      "astro-ph.SR",   # Solar and Stellar Astrophysics
+      "nucl-ex",       # Nuclear Experiment
+      "nucl-th",       # Nuclear Theory
+      "physics.atom-ph",
+      "physics.plasm-ph"
+    ]
 
 executor:
   debug: ${oc.env:DEBUG,null}
