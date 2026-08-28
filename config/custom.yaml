@@ -32,5 +32,6 @@ source:
     ]
 
 executor:
+  max_paper_num: 10   # 每次推荐10篇，按需改成你想要的数字
   debug: ${oc.env:DEBUG,null}
   source: ['arxiv']
